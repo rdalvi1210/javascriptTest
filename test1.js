@@ -54,7 +54,7 @@ isPrime(num)
 
 
 
-// Find Factorial of a Number (Using Loop)
+// // Find Factorial of a Number (Using Loop)
 
 var num = 5;
 var fact;
@@ -69,7 +69,7 @@ factorial(num)
 
 
 
-// Sum of Even Numbers in an Array
+// // Sum of Even Numbers in an Array
 
 var array = [1,2,3,4,5,6]
 
@@ -85,7 +85,7 @@ const sumEven = (array)=>{
 sumEven(array)
 
 
-// 4. Reverse an Array Without Using Built-in Methods
+// // 4. Reverse an Array Without Using Built-in Methods
 
 var array  = [1, 2, 3, 4];
 
@@ -99,7 +99,7 @@ const reverseArray = (array)=>{
 reverseArray(array)
 
 
-// 7. Find the Second Largest Number in an Array
+// // 7. Find the Second Largest Number in an Array
 
 var array  = [12, 10, 6, 5];
 
@@ -117,7 +117,7 @@ secondLargest(array)
 
 
 
-// 10. Check if an Array is Sorted (Ascending Order)
+// // 10. Check if an Array is Sorted (Ascending Order)
 
 var array = [4, 2, 3, 4];
 
@@ -147,6 +147,23 @@ const duplicate = (array)=>{
       console.log(newArray)
 }
 duplicate(array)
+
+
+// . Count the Number of Vowels in a String
+
+var string = "aeiou";
+var count = 0;
+const vowelsCount = (str)=>{
+    str = str.toLowerCase();
+   for(i=0; i<str.length; i++){
+      if(string.includes(str[i])){
+          count++
+      }
+   }
+   console.log(count)
+}
+
+vowelsCount("aewA")
 
 
 
