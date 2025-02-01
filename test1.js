@@ -1,7 +1,5 @@
 
-
-let a = 5;
-let b = 5;
+// swap value of a to b and b to a
 
 const swap = (a, b)=>{
     a=a+b;
@@ -9,11 +7,10 @@ const swap = (a, b)=>{
     a=a-b;
     console.log(a, b);
 }
-swap(a, b)
+swap(5, 10);
 
 
-
-2. Find the Largest of Three Numbers
+// 2. Find the Largest of Three Numbers
 
 let a = 3;
 let b = 7;
@@ -33,9 +30,8 @@ largetNumber(a, b, c)
 
 
 
-Check If a Number is Prime 
+// Check If a Number is Prime or not
 
- Prime number  
 var num = 5; 
 var prime = true;
 
@@ -58,7 +54,7 @@ isPrime(num)
 
 
 
-Find Factorial of a Number (Using Loop)
+// Find Factorial of a Number (Using Loop)
 
 var num = 5;
 var fact;
@@ -73,7 +69,7 @@ factorial(num)
 
 
 
-Sum of Even Numbers in an Array
+// Sum of Even Numbers in an Array
 
 var array = [1,2,3,4,5,6]
 
@@ -89,7 +85,7 @@ const sumEven = (array)=>{
 sumEven(array)
 
 
-4. Reverse an Array Without Using Built-in Methods
+// 4. Reverse an Array Without Using Built-in Methods
 
 var array  = [1, 2, 3, 4];
 
@@ -121,7 +117,7 @@ secondLargest(array)
 
 
 
-10. Check if an Array is Sorted (Ascending Order)
+// 10. Check if an Array is Sorted (Ascending Order)
 
 var array = [4, 2, 3, 4];
 
@@ -137,7 +133,7 @@ const sortedAscending = (array)=>{
 console.log(sortedAscending(array))
 
 
-Remove duplicate values 
+// Remove duplicate values 
 
 var array  = [1, 2, 2, 3, 4];
 
