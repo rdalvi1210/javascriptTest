@@ -1,5 +1,5 @@
 
-// swap value of a to b and b to a
+//swap value of a to b and b to a
 
 const swap = (a, b)=>{
     a=a+b;
@@ -10,7 +10,7 @@ const swap = (a, b)=>{
 swap(5, 10);
 
 
-// 2. Find the Largest of Three Numbers
+//Find the Largest of Three Numbers
 
 let a = 3;
 let b = 7;
@@ -54,7 +54,7 @@ isPrime(num)
 
 
 
-// // Find Factorial of a Number (Using Loop)
+//Find Factorial of a Number (Using Loop)
 
 var num = 5;
 var fact;
@@ -69,7 +69,7 @@ factorial(num)
 
 
 
-// // Sum of Even Numbers in an Array
+// Sum of Even Numbers in an Array
 
 var array = [1,2,3,4,5,6]
 
@@ -85,7 +85,7 @@ const sumEven = (array)=>{
 sumEven(array)
 
 
-// // 4. Reverse an Array Without Using Built-in Methods
+// Reverse an Array Without Using Built-in Methods
 
 var array  = [1, 2, 3, 4];
 
@@ -99,28 +99,37 @@ const reverseArray = (array)=>{
 reverseArray(array)
 
 
-// // 7. Find the Second Largest Number in an Array
+// Find the Second Largest Number in an Array
 
-var array  = [12, 10, 6, 5];
+var array = [1, 5, 3, 4];
 
-const secondLargest = (array)=>{
-     let firstelement = array[0];
+function secondlargest(array) {
+    let largeElement = array[0];
+    let secondlarge = array[0];
 
-     for(i=0; i<array.length; i++){
-        if(array[i]>firstelement){
-            firstelement = array[i]
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] > largeElement) {
+            largeElement = array[i];
         }
-     }
-     console.log(firstelement)
+    }
+
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] > secondlarge && array[i] !== largeElement) {
+            secondlarge = array[i];
+        }
+    }
+
+    console.log(secondlarge);
 }
-secondLargest(array)
+
+secondlargest(array);
 
 
 
-// // 10. Check if an Array is Sorted (Ascending Order)
+
+// Check if an Array is Sorted (Ascending Order)
 
 var array = [4, 2, 3, 4];
-
 
 const sortedAscending = (array)=>{
     for(i=0; i<array.length;i++){
@@ -149,7 +158,7 @@ const duplicate = (array)=>{
 duplicate(array)
 
 
-// . Count the Number of Vowels in a String
+// Count the Number of Vowels in a String
 
 var string = "aeiou";
 var count = 0;
@@ -164,10 +173,6 @@ const vowelsCount = (str)=>{
 }
 
 vowelsCount("aewA")
-
-
-
-
 
 
 
